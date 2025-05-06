@@ -17,7 +17,7 @@ personalInfo:
   # WARNING: Use number only (Ex: 111111111)
   phoneNumber: '3852950148'
 
-  # Serivce you needed at DPS. Check the full list on https://github.com/phamleduy04/texas-dps-scheduler/wiki/TypeId-list
+ 
   # If you need to apply for Texas DL you don't need to change it
   typeId: 71
 
@@ -61,7 +61,6 @@ appSettings:
   headersTimeout: 50000 
   # How many times to retry if the request to DPS server failled
   maxRetry: 3
-  # Read this for more infomation: https://github.com/phamleduy04/texas-dps-scheduler/wiki/Captcha-(Auth-Token)
   captcha:
     # Avaliable options: solver, browser or manual
     strategy: 'browser'
